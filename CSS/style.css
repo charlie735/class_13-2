@@ -1,0 +1,109 @@
+*{
+      outline: 0;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+section{
+ 
+}
+.container{
+      width: 1170px; 
+      height: 700px; 
+      background-color:#1c77aa ;
+      border-radius: 10px;  
+      margin: 50px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+}
+.row{
+      display: flex;
+      flex-wrap: wrap;
+}
+.inner_container{
+      width: 1000px;
+      border-radius: 10px;
+      background-color: #ffff;
+      position: relative;
+}
+.box{
+      position: relative;
+      width: 30%;
+      margin-bottom: 40px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.box img{
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+}
+.box p{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 15px;
+      word-spacing: 3px;
+      padding-bottom: 20px;
+}
+.heading{
+      text-align: center;
+      padding: 20px 0;
+}
+.heading h2{
+      text-transform: uppercase;
+      font-size: 30px;
+}
+.heading p{
+      text-transform: capitalize;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      word-spacing: 3px;
+}
+.flexbox{
+      justify-content: space-around;
+}
+.box i,.container i{
+      font-size: 30px;
+      width: 60px;
+      height: 60px;
+      background-color:greenyellow;
+      border-radius: 50%;
+      border: 1px solid black;
+      line-height: 60px;
+      position: absolute;
+      text-align: center;
+      top: 40%;
+      left: 40%;
+}
+.btn{
+      text-decoration: none;
+      text-transform: capitalize;
+      padding: 5px 10px;
+      color: black;
+      border-radius: 5px;
+      font-size: 20px;
+      border: 2px solid rgb(12, 23, 121);
+      display: inline-block;
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      transition: 0.4s;
+}
+.btn:hover{
+      background-color: aqua;
+}
+.container #lt{
+      top: 50%;
+      left: 4%;
+      background-color: #1c77aa;
+      color: #ffff;
+      border: none;
+}
+.container #gt{
+      bottom: 50%;
+      right:0%;
+}
+
